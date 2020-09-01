@@ -27,6 +27,32 @@
 		<link rel="stylesheet" href="customer_content/css/eo4geo_override.css" id="theme">
 
     <base target="_blank"> <!-- All links in the presentation are opened in a seperate tab"-->
+    
+    
+    <style>
+      
+      #left {
+        margin: 10px 0 15px 20px;
+        text-align: center;
+        float: left;
+        z-index:-10;
+        width:48%;
+        font-size: 0.85em;
+        line-height: 1.5;
+      }
+      
+      #right {
+        margin: 10px 0 15px 0;
+        float: right;
+        text-align: center;
+        z-index:-10;
+        width:48%;
+        font-size: 0.85em;
+        line-height: 1.5;
+      }
+      
+      
+    </style>
  
 	</head>
 
@@ -82,32 +108,129 @@
 				
 				
 				<!-- AUTHORS: DEFINE CONTENT FOR YOUR SECOND SLIDE: --> 
-				<!--<section class="scrollable">
-					<h1>Copernicus</h1> 
-					<br>Copernicus and Galileo are the two flagships of the <em>European Space Policy</em>. Galileo denotes the European satellite navigation system, while Copernicus is the name of the European Earth observation <a href="https://www.copernicus.eu">programme</a>
-					<br><img width="600" height="300" data-src="resources\template_WhatCopernicus\CopMountain.jpg" alt="Copernicus allegory">
+				<section class="scrollable">
+					<h1>Introduction to Reproducibility</h1> 
+					
+					<ul>
+						<li style="color:#337acc;">Historical notes on reproduction & concept</li>
+						<li style="color:#337acc;">Reproducibility today</li>
+						<li style="color:#337acc;">PhD thesis meets reproducibility</li>
+				  </ul>
 				</section>
+				
+				
+				<!-- Slides in Markdown language for item #1: Historical notes on reproduction & concept -->
+				<!-- AUTHORS: for horizontally organised slides, use three dashes, for vertical slides two dashes -->
+				<section data-markdown data-separator="---" data-separator-vertical="--" data-separator-notes="^Note:"> 
+				    <script type="text/template">
+                ## Historical notes on reproduction & concept
+                Focus is the art of knowing what to ignore.
+
+                >The fastest way to raise your level of performance: Cut your number of commitments in half.
+                
+						    --
+						    
+    						## The profession of the scientist  
+    						<div style="text-align: left;">
+
+    						- Why are you a scientist/researcher?
+
+                - What are your motivations?
+                
+                </div>
+                
+                <div id="left">
+                 
+    						__Intrinsic__ motivations:
+                
+                >- eager to do research! 
+                >- advance knowledge     
+                >- make a better world!  
+                
+                </div>
+                 <div id="right">
+                
+                __Extrinsic__ motivations:
+                
+                >- financial incentives
+                >- move up the career ladder
+                >- recognition by peers, society
+                </div>
+               
+                
+                --
+                
+                ## Reproducibility in Science
+
+                Doubt is inherently human and we (scientists) always have doubts!
+
+                - (Well, that doesn’t mean it’s OK to keep questioning climate change, evolution, and the power of vaccines...)
+
+                Advancing science and knowledge requires:
+
+                - __openness__,
+                - __transparency__,
+                - __reproduction__ and   
+                - __cumulative evidence__ (reviews)
+                
+                --
+                
+                ## Reproducibility in Science
+                
+                <img data-src="resources/figs/reproducible_funnel.jpg" width="80%"/>
+
+            </script>
+        </section>
+    				
+			
+				
+				<!-- Slides in Markdown language for item #2: Reproducibility today -->
+				<!-- AUTHORS: for horizontally organised slides, use three dashes, for vertical slides two dashes -->
+				<section data-markdown data-separator="---" data-separator-vertical="--" data-separator-notes="^Note:"> 
+				    <script type="text/template">
+                # Reproducibility today
+                
+            </script>
+        </section>
+				
+				
+				
+				
+				
+				<!-- Slides in Markdown language for item #3: PhD thesis meets reproducibility -->
+				<!-- AUTHORS: for horizontally organised slides, use three dashes, for vertical slides two dashes -->
+				<section data-markdown data-separator="---" data-separator-vertical="--" data-separator-notes="^Note:"> 
+				    <script type="text/template">
+                # PhD thesis meets reproducibility
+                
+            </script>
+        </section>
+				
+				
+				
+				
 				
 					<!-- AUTHORS: DEFINE CONTENT FOR YOUR SECOND SLIDE: --> 
-				<!--<section >
-					<h1>Copernicus</h1> 
-					<br>
+				<section>
+			    <h1>Copernicus</h1> 
+				  <br>
 					 
-					<br><img  style="width: 100%; max-width: 600px; max-height:600px; height:100%" data-src="resources\2560pxAERONET.jpg" alt="Copernicus allegory">
+				  <br><img  style="width: 100%; max-width: 600px; max-height:600px; height:100%" data-src="resources\2560pxAERONET.jpg" alt="Copernicus allegory">
 					 
-				</section>
+			  </section>
 				
-				<!-- AUTHORS: Same content as above - now as example in Markdown language   --> <!-- AUTHORS: for horizontally organised slides, use three dashes ---, for vertical slides two dashes -- -->
-				<!--section data-markdown data-separator="---" data-separator-vertical="--" data-separator-notes="^Note:"> 
-				                    <script type="text/template">
-                        # What is Copernicus?
-                        (A demo slide deck using the Reveal.js framework)
+				<!-- AUTHORS: Same content as above - now as example in Markdown language   --> 
+				<!-- AUTHORS: for horizontally organised slides, use three dashes, for vertical slides two dashes -->
+				<section data-markdown data-separator="---" data-separator-vertical="--" data-separator-notes="^Note:"> 
+				    <script type="text/template">
+                  # What is Copernicus?
+                    (A demo slide deck using the Reveal.js framework)
 					
 						
-                        ---
+                    ---
 						
-                        # Copernicus
-                        Copernicus and Galileo are the two flagships of the European Space Policy. Galileo denotes the European satellite navigation system, while Copernicus is the name of the <a href="https://www.copernicus.eu">European Earth observation programme</a>
+                    # Copernicus
+                    Copernicus and Galileo are the two flagships of the European Space Policy. Galileo denotes the European satellite navigation system, while Copernicus is the name of the <a href="https://www.copernicus.eu">European Earth observation programme</a>
 						<img width="600" height="300" data-src="resources\template_WhatCopernicus\CopMountain.jpg" alt="Copernicus allegory">
 						
 						
@@ -116,12 +239,12 @@
 						# Earth observation (EO)
 						EO is one out of three main space assets
 						- SatNav
-                        - SatCom
+            - SatCom
 						- SatObs (EO)
 						
 						<img width="600" height="250" data-src="resources\template_WhatCopernicus\3SpaceComponents.png" alt="3SpaceComponents">	
                     </script>
-                </section-->
+                </section>
 				
 			
 				
